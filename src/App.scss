@@ -1,0 +1,97 @@
+
+.App {
+  text-align: center;
+  text-decoration: none;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-listsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.board-with-lists {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.App-listsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-listContent-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  padding: 10px 18px 10px 10px;
+}
+
+.App-List-deadline {
+  height: 40px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+}
+
+.App-List-deadline-info {
+  padding-right: 10px;
+}
+
+.App-listsContent-header {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  background-color: #b6cfd6;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.App-List-icon-clock {
+  color: #166c84;
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #6ad1cf;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  font-size: 20px;
+}
+
+*:link {
+  text-decoration: none;
+  color: rgb(180, 175, 175);
+}
+
+*:active {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none;
+  color: #aaa;
+  background-color: #51a1bc;
+}
+
+*:visited {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,80 @@
+$TaskComponent-buttonWrapper: 100px;
+
+.TasksComponent-container {
+  margin-bottom: 20px;
+}
+
+.board-of-tasks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.TasksComponent-imput {
+  width: 120px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.TasksComponent-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.TasksComponent-task {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #999;
+  box-shadow: 2px 3px 2px #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.TasksComponent-task:hover {
+  box-shadow: 3px 4px 3px #aaa;
+}
+
+.TaskComponent-buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TaskComponent-actionButton {
+  width: 25px;
+  height: 25px;
+  color: #84a4d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+.Task-removeTask:hover {
+  color: red;
+}
+
+.Task-addUser:hover {
+  color: green;
+}
+
+.Task-createTask:hover {
+  color: #1a4c9e;
+}
+
+.Task-createTask {
+  width: 100%;
+  height: 100%;
+}
+
+.TasksComponent-imput {
+  border-radius: 5px;
+}
+
+.TasksComponent-content {
+  padding-top: 15px;
+  width: 95%
+}

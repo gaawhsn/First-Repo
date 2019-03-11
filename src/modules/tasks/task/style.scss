@@ -1,0 +1,171 @@
+$TaskComponent-buttonWrapper: 100px;
+
+.board-of-tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TasksComponent-taskComponent {
+  padding: 10px;
+  width: 100%;
+}
+
+.TasksComponent-input {
+  width: 120px;
+  border-radius: 5px;
+}
+
+.TaskComponent-input-taskName-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TasksComponent-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.TasksComponent-task {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  box-shadow: 2px 3px 2px #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.TasksComponent-task:hover {
+  box-shadow: 3px 4px 3px #aaa;
+}
+
+.TaskComponent-buttonWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.TaskComponent-actionButton {
+  width: 25px;
+  height: 25px;
+  color: #84a4d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+.Task-removeTask:hover {
+  color: red;
+}
+
+.Task-addUser:hover {
+  color: green;
+}
+
+.Task-createTask:hover {
+  color: #1a4c9e;
+}
+
+.Task-editTask,
+.Task-removeTask,
+.Task-createTask,
+.Task-addUser,
+.Task-icon_setTaskAsInProgress {
+  width: 100%;
+  height: 100%;
+}
+
+.Task-addUserToList {
+  width: 30px;
+  height: 30px;
+}
+
+.TasksComponent-input {
+  border-radius: 5px;
+}
+
+.TaskComponent-Input__hidden {
+  visibility: hidden;
+}
+
+.TasksComponent-box-content {
+  width: 93%;
+  background-color: #cfd2d3;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 21px;
+}
+
+.TaskComponent-box-worker {
+  width: 90%;
+  background-color: #a9d2e5;
+  border-radius: 4px;
+  padding: 6px;
+  color: #444;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.TaskComponent-workerName {
+  padding: 0 10px 0 10px;
+}
+
+.TasksComponent-taskContent {
+  padding-top: 15px;
+  width: 90%
+}
+
+.TaskComponent-input-and-icon {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px 0 10px;
+  align-items: center;
+}
+
+.TasksComponent-input__addingWorker {
+  height: 50px;
+  width: max-width;
+}
+
+.Task-addingWorker {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.Input__hidden {
+  visibility: hidden;
+}
+
+.input-absolute {
+  visibility: visible;
+  width: $TaskComponent-buttonWrapper;
+  height: 30px;
+}
+
+.show-input, .hideText {
+  visibility: hidden;
+}
+
+.TaskComponent-input-taskName {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: 2px solid #e7e7e7;
+}

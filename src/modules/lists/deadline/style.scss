@@ -1,0 +1,23 @@
+.Deadline-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Deadline-icon-clock {
+	color: #166c84;
+	width: 40px;
+	height: 40px;
+}
+
+.Deadline-date {
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px;
+}
+
+.Deadline-info {
+	height: 80%;
+}

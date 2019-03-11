@@ -1,0 +1,19 @@
+.App-calendar {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    background-color: #a4e3e8;
+}
+
+.react-calendar__month-view__days {
+    background-color: #ddd;
+}
+
+.react-calendar__navigation__label,
+.react-calendar__navigation__arrow,
+.react-calendar__navigation__next-button {
+    color: #777;
+    background-color: #a8e6eb;
+}

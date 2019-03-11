@@ -1,0 +1,62 @@
+.tasks {
+	background-color: blue;
+}
+
+.container-with-tasks {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 350px;
+	border-radius: 5px;
+	color: #444;
+	box-shadow: 2px 3px 2px lightgrey;
+	background-color: #eee;
+	margin-bottom: 5px;
+	margin: 10px;
+}
+
+.List-info {
+	min-height: 50px;
+	width: 100%;
+	background-color: #6ad1cf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.List-owner {
+  width: 100%;
+	background-color: #444;
+	color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 10px 0;
+}
+
+.List-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 25px;
+}
+
+.List-icon__editTitle {
+	color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .Lists-boards-with-lists {
+    flex-direction: column;
+		flex-wrap: wrap;
+  }
+}
+
+.Lists-boards-with-lists {
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
